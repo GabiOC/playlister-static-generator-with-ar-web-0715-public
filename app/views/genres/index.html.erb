@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Genres</title>
+  </head>
+  <body>
+    <ul>
+      <% Genre.all.each do |g| %>
+         <li>
+          <%= g.name %>
+         </li>
+       <% end %>
+    </ul>
+  </body>
+</html>
